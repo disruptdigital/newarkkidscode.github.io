@@ -12,3 +12,97 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+.red-text {
+  color: #E73E31 !important;
+}
+
+.red {
+  background-color: #E73E31 !important;
+}
+
+
+
+
+/* .video-container {
+  z-index: -100;
+  height: 60vw;
+  max-height: 100vh;
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.flex-center {
+  text-align: center;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+} */
+
+#video-bg {
+  min-height:100vh;
+  min-width:100%;
+}
+
+#image-bg {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+/* @media only screen and (min-width: ) {
+  #video-bg {
+      
+  }
+} */
+
+@media only screen and (max-width: 768px) {
+  #image-bg {
+      background: url('../images/disrupt-laptop.jpg');
+      height: 100%;
+      min-width: 100%;
+  }
+}
+
+
+.header-overlay {
+  height:100%;
+  width:100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #000906;
+  opacity: 0.85;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#section {
+  position: relative;
+}
+
+.content {
+  color: white;
+}
+
+.overlay-content-wrapper {
+  position: relative;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .overlay-content-wrapper {
+      font-size: 10px;
+      margin-top: 30px;
+  }
+}
+
+.overlay-content {
+  color: white;
+  text-align: center;
+}
